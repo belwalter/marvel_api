@@ -26,7 +26,7 @@ jobs:
 
     - name: Run tests with coverage
       run: |
-        pytest --cov=./ --cov-fail-under=95
+        PYTHONPATH=. pytest --cov=./ --cov-fail-under=95
 
     - name: Upload coverage report
       if: always()
