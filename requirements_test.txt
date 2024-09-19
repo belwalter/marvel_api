@@ -1,3 +1,4 @@
 coveralls
+httpx
 pytest
 pytest-cov
